@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.header-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header-nome {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.header-funcao {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-texto {
+    max-width: 600px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 315px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+.main-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.main-links a {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+    gap: 8px;
+}
+
+.main-links img {
+    width: 30px;
+    display: block;
+}
+
+.main-links a:hover {
+    transform: scale(1.2);
+    color: #000000;
+}
